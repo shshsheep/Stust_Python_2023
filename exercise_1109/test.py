@@ -65,3 +65,29 @@ add(10)
 
 print("----------")
 #exe_7
+
+def display_student(name, age):
+    print(name, age)
+
+display_student("Emma", 26)
+
+showstudent = display_student
+
+showstudent("Emma", 26)
+
+print("----------")
+#exe_8
+
+def rangelist(num) :
+    print(list(num))
+
+rangelist(range(4 ,30 ,2 ))
+
+print("----------")
+#exe_9
+
+def listmax(num) :
+    print(max(num))
+
+x = [4 ,6 ,8 ,24 ,12 ,2 ]
+listmax(x)
