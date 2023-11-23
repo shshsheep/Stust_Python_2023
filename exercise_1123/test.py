@@ -32,5 +32,4 @@ sample_id1.assign_department("Chef")
 
 sample_id1.print_employee_details()
 
-
-print("Salary after overtime for employee : ", sample_id1.calculate_salary(100))
+print("Salary after 'overtime' for employee : ", sample_id1.calculate_salary(100))
