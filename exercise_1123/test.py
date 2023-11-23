@@ -5,7 +5,7 @@ class MyShape:
         self.salary = salary 
         self.departmeant = department 
     
-    def calculate_salary(self,hour_works):
+    def calculate_salary(self,hour_works): #計算超時工作
         if hour_works > 50 :
             overtime = hour_works - 50
             overtime_amount = (overtime*(self.salary/50))
@@ -14,10 +14,10 @@ class MyShape:
         else :
             return self.salary
     
-    def assign_department(self,new_department):
+    def assign_department(self,new_department): #給予新職位
         self.departmeant = new_department
         
-    def print_employee_details(self):
+    def print_employee_details(self): #輸出答案
         print("Employee 's id :", self.id)
         print("Employee 's name :", self.name)
         print("Employee 's salary :", self.salary)
