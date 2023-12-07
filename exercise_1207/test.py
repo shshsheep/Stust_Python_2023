@@ -47,16 +47,16 @@ class student :
     @property
     def departmentBoss(self):
         # Getter method for department boss
-        return self.departmentBoss
+        return self._departmentBoss
     @departmentBoss.setter
     def departmentBoss(self,new_departmantBoss):
         # Setter method for department boss
-        print(f"{self.departmentBoss} was change to {new_departmantBoss}")
-        self.departmentBoss = new_departmantBoss
+        print(f"{self._departmentBoss} was change to {new_departmantBoss}")
+        self._departmentBoss = new_departmantBoss
     @departmentBoss.deleter
     def departmentBoss(self):
         # deleter method for deparrtmentBoss
-        del self.departmentBoss
+        del self._departmentBoss
 
     def get_name(self):
         # Getter method for name
