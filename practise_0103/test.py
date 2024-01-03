@@ -27,7 +27,6 @@ class library :
 
 #ex
 library_books = library("001","2022","andy","2F-1")
-library_books1 = library("002","2021","mike","")
 
 library_books.add_book("A1","2024-01-03")
 library_books.add_book("S2","2024-01-01")
