@@ -1,3 +1,4 @@
+#第一題
 class frychicken : 
     def __init__(self, name, head, leg, wing, chest, hreat) :
         #建立五個屬性and建構子
