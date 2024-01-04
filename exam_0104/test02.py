@@ -1,3 +1,4 @@
+#第二題
 class STUSTdrinkShop:
     class Employer:
         def __init__(self, name, Seniority, workinghour):
