@@ -50,28 +50,32 @@ chickenshop_customer1 = frychicken("顧客1" ," 頭 ", " 腳 ", " 翅膀 ", " �
 chickenshop_customer2 = frychicken("顧客2"," 頭 ", "腳", "翅膀", "雞胸", "雞心")
 chickenshop_customer3 = frychicken("顧客3","頭", "腳", "翅膀", "雞胸", "雞心")
 chickenshop_customer4 = frychicken("顧客4","頭", "腳", "翅膀", "雞胸", "雞心")
+print("------------------")
 
 # 顧客1的操作
 chickenshop_customer1.Fry_chicken(chickenshop_customer1.head, 20)
 chickenshop_customer1.Inquire(chickenshop_customer1.wing)
 chickenshop_customer1.Eat_chicken(chickenshop_customer1.head)
 chickenshop_customer1.Eat_chicken(chickenshop_customer1.leg)
+print("------------------")
 
 # 顧客2的操作
 chickenshop_customer2.Fry_chicken(chickenshop_customer2.chest, 14)
 chickenshop_customer2.Inquire(chickenshop_customer2.wing)
 chickenshop_customer2.Eat_chicken(chickenshop_customer2.chest)
 chickenshop_customer2.Eat_chicken(chickenshop_customer2.leg)
+print("------------------")
 
 # 顧客3的操作
 chickenshop_customer3.Fry_chicken(chickenshop_customer3.wing, 10)
 chickenshop_customer3.Inquire(chickenshop_customer3.wing)
 chickenshop_customer3.Eat_chicken(chickenshop_customer3.wing)
 chickenshop_customer3.Inquire(chickenshop_customer3.wing)
+print("------------------")
 
 # 顧客4的操作
 chickenshop_customer4.Fry_chicken(chickenshop_customer4.hreat, 60)
 chickenshop_customer4.Inquire(chickenshop_customer4.wing)
 chickenshop_customer4.Eat_chicken(chickenshop_customer4.hreat)
 chickenshop_customer4.Eat_chicken(chickenshop_customer4.leg)
-
+print("------------------")
