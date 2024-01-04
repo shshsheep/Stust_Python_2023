@@ -89,18 +89,21 @@ employer3 = drink_shop_instance.Employer(name="Andy", Seniority=2, workinghour=5
 
 
 # 使用副函式
+print("------------------")
 employer1.calculate_monthly_salary(day_salary=168)
 employer1.increase_working_hours(hours=2)
 employer1.increase_Seniority(year=3)
+print("------------------")
 
 employer2.calculate_monthly_salary(day_salary=178)
 employer2.increase_working_hours(hours=1)
 employer2.increase_Seniority(year=1)
+print("------------------")
 
 employer3.calculate_monthly_salary(day_salary=186)
 employer3.increase_working_hours(hours=4)
 employer3.increase_Seniority(year=3)
-
+print("------------------")
 
 # 創建 ColdDrink 物件的實例
 cold_drink1 = ColdDrink(money=50, size="大杯", ingredient="可樂", name="可樂", iced=True, sweet=True)
@@ -111,14 +114,17 @@ cold_drink3 = ColdDrink(money=65, size="大杯", ingredient="橘子汽水", name
 cold_drink1.change_price(60)
 cold_drink1.change_name("零卡可樂")
 cold_drink1.change_sweetness("少糖")
+print("------------------")
 
 cold_drink2.change_price(40)
 cold_drink2.change_name("超水檸檬汁")
 cold_drink2.change_sweetness("全糖")
+print("------------------")
 
 cold_drink3.change_price(30)
 cold_drink3.change_name("橘子汁")
 cold_drink3.change_sweetness("半糖")
+print("------------------")
 
 # 創建 HotDrink 物件的實例
 hot_drink1 = HotDrink(money=25, size="中杯", ingredient="茶", name="紅茶", sweet=False)
@@ -129,11 +135,14 @@ hot_drink3 = HotDrink(money=50, size="大杯", ingredient="可可", name="熱可
 hot_drink1.change_name("綠茶")
 hot_drink1.change_price(20)
 hot_drink1.change_sweetness("全糖")
+print("------------------")
 
 hot_drink2.change_name("拿鐵")
 hot_drink2.change_price(45)
 hot_drink2.change_sweetness("無糖")
+print("------------------")
 
 hot_drink3.change_name("90%可可")
 hot_drink3.change_price(70)
 hot_drink3.change_sweetness("無糖")
+print("------------------")
